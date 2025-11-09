@@ -7,10 +7,10 @@ Program User Operation
 The script reads a file with a list of users and creates them in the system. You can test it first (dry run) then running it for real. The comments in the code help explain what each part does and to better help you understand what's going on. 
 
 Input File Format
-Each line in the input file has five parts separated by colons (:):
+Each line in the input file has five parts separated by colons ":":
 username:password:last name:first name:group
 If you want to skip a line, put a # at the start of it.
-If the user doesn’t need to be in a group, just put a dash (-).
+If the user doesn’t need to be in a group, just put a dash "-".
 
 Command Excuction
 Before running the code, in order to make the python file excuable, run this code: 
